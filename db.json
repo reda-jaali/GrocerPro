@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "password123",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Organic Milk",
+      "price": 3.99,
+      "category": "Dairy",
+      "stock": 50
+    },
+    {
+      "id": "p2",
+      "name": "Whole Wheat Bread",
+      "price": 2.49,
+      "category": "Bakery",
+      "stock": 30
+    },
+    {
+      "id": "p3",
+      "name": "Free-Range Eggs",
+      "price": 4.99,
+      "category": "Dairy",
+      "stock": 100
+    },
+    {
+      "id": "a916",
+      "name": "halib",
+      "price": 4,
+      "category": "General",
+      "stock": 10
+    }
+  ],
+  "customers": [
+    {
+      "id": "d0ce",
+      "name": "reda jaali",
+      "totalDue": 8,
+      "transactions": [
+        {
+          "id": "2859e4b9-0398-41ab-8d33-5eae5de805da",
+          "productId": "a916",
+          "productName": "halib",
+          "price": 4,
+          "quantity": 2,
+          "total": 8,
+          "date": "2026-02-15T18:05:21.941Z"
+        }
+      ],
+      "createdAt": "2026-02-15T18:04:22.026Z"
+    }
+  ]
+}
