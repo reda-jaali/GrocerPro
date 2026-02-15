@@ -20,7 +20,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/GrocerPro">
       <Toaster position="top-right" />
       <Routes>
         <Route path="/login" element={<Login />} />
