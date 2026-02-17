@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "username": "admin",
+      "username": "reda",
       "password": "password123",
       "role": "admin"
     }
@@ -37,23 +37,5 @@
       "stock": 10
     }
   ],
-  "customers": [
-    {
-      "id": "d0ce",
-      "name": "reda jaali",
-      "totalDue": 8,
-      "transactions": [
-        {
-          "id": "2859e4b9-0398-41ab-8d33-5eae5de805da",
-          "productId": "a916",
-          "productName": "halib",
-          "price": 4,
-          "quantity": 2,
-          "total": 8,
-          "date": "2026-02-15T18:05:21.941Z"
-        }
-      ],
-      "createdAt": "2026-02-15T18:04:22.026Z"
-    }
-  ]
+  "customers": []
 }
